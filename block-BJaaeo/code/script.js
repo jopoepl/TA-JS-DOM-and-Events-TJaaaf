@@ -10,7 +10,6 @@ let result = 0;
 calc.addEventListener("click", function(event) { 
     if(event.target.innerText === `C`){
         inputValue = "";
-
     } if(event.target.innerText === `=`){
         input.value =  result;
     } else {
