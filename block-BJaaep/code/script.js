@@ -38,14 +38,14 @@ box2.forEach(box => {
     h2.innerText = sum1;
     h2.style.visibility = "hidden"
     box.append(h2)
-    
-    function handleEvent(event) {
-        event.target.firstElementChild.style.visibility = "visible" ;
-        setTimeout (function(){
-        event.target.firstElementChild.style.visibility = "hidden" }, 5000)
-    }
-    box2p.addEventListener(`click`, handleEvent)
 })
+
+function handleEvent(event) {
+    event.target.firstElementChild.style.visibility = "visible" ;
+    setTimeout (function(){
+    event.target.firstElementChild.style.visibility = "hidden" }, 5000)
+}
+box2p.addEventListener(`click`, handleEvent)
 
 
 
