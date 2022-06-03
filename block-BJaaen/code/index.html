@@ -4,8 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper and Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bb050fae99.js" crossorigin="anonymous"></script>
   </head>
   <body>
+    <div class="main-cont">
+      <div class="top-cont">
+        <h2>Rock Paper Scissor</h2>
+      </div>
+      <div class="btm-cont">
+          <h4>You - <span class="wins">0</span><span class="input-value"></span></h4>
+      <div>
+        <ul class="you flexr">
+          <li><i class="fa fa-hand-rock-o" data-value = "rock" aria-hidden="true"></i>
+          </li>
+          <li><i class="fa fa-hand-paper-o" data-value = "paper" aria-hidden="true"></i></li>
+          <li><i class="fa fa-hand-scissors-o" data-value = "scissor" aria-hidden="true"></i>
+          </li>
+        </ul>
+
+        <h4>AI - <span class="loss">0</span><span class="output-value"></span></h4>
+        <ul class="ai flexr">
+          <li><i class="fa fa-hand-rock-o" data-value = "rock" data-input = "0" aria-hidden="true"></i>
+          </li>
+          <li><i class="fa fa-hand-paper-o" data-value = "paper" data-input = "1" aria-hidden="true"></i></li>
+          <li><i class="fa fa-hand-scissors-o" data-value = "scissor" data-input = "2" aria-hidden="true"></i>
+          </li>
+        </ul>
+        <h2 class="result"></h2>
+        <button>RESET</button>
+      </div>
+    </div>
     <script src="./script.js"></script>
+
   </body>
 </html>
