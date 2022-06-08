@@ -1,0 +1,17 @@
+{
+    "name": "Dark Mode",
+    "description": "Browse with a dark theme",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+        "js": ["content.js"],
+      "css": ["content.css"],
+      "html": ["index.html"],
+      "matches": ["<all_urls>"]
+        }
+    ],
+    "permissions": [
+        "tabs"
+    ]
+}
