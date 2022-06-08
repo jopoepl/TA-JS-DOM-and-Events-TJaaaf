@@ -1,0 +1,45 @@
+/* h1, h2, h3, h4, h5, h6 {
+    color: #BB86FC !important;
+}
+
+p, div {
+    color:#852eff !important;
+}
+
+body {
+    background: #292929 !important;
+    background: "";
+}
+
+a, span{
+    color: #03DAC6 !important;
+} */
+
+.dmButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #03DAC6;
+    background-color: black;
+    padding: 15px 35px;
+    font-size: 12px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+.darkmode {
+    background: #292929 !important;
+    
+}
+
+.darkmode2 {
+    color: #BB86FC !important;
+}
+
+.darkmode3 {
+    color:#852eff !important;
+}
+
+.darkmode4 {
+    color:#018786 !important;
+}
